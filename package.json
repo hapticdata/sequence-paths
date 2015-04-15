@@ -1,0 +1,32 @@
+{
+  "name": "sequence-paths",
+  "version": "1.0.0",
+  "description": "generate an array of paths to load an image sequence assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hapticdata/sequence-paths.git"
+  },
+  "keywords": [
+    "array",
+    "images",
+    "image sequence",
+    "paths",
+    "util"
+  ],
+  "author": "Kyle Phillips <kyle@haptic-data.com> (http://hapticdata.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hapticdata/sequence-paths.git/issues"
+  },
+  "homepage": "https://github.com/hapticdata/sequence-paths.git",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "pad": "0.0.8"
+  }
+}
